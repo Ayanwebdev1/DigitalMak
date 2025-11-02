@@ -29,7 +29,7 @@ export default function OurClients() {
   };
 
   const clients = [
-    "/logo1.jpeg",
+    "/democlient.jpeg",
     "/logo2.png",
     "/logo3.png",
     "/logo4.png",
