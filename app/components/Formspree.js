@@ -31,7 +31,7 @@ export default function Formspree() {
     return (
         // 
         
-        <form ref={Formref} onSubmit={handleSubmit} className="max-w-md mx-auto bg-white p-6 rounded-2xl  shadow-[5px_20px_30px_rgba(0,0,0,0.3)] space-y-4 mt-3.5">
+        <form ref={Formref} onSubmit={handleSubmit} className="max-w-md mx-auto bg-white p-6 rounded-2xl  shadow-[5px_20px_30px_rgba(0,0,0,0.3)] space-y-4 mt-3.5 mb-9">
 
             {/* Name */}
             <div className="flex flex-col mt-10 ">
