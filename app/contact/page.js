@@ -1,4 +1,4 @@
-import Contactcomp from "../components/contactcomp.js"
+import Contactcomp from "../components/Contactcomp"
 
 
 export const metadata = {
