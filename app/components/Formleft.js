@@ -33,14 +33,15 @@ export default function Formspree() {
         
         <>
         
-<div className="flex justify-between items-start w-full px-10 mt-10">
+<div className="flex flex-col md:flex md:flex-row justify-between items-start w-full px-10 mt-10">
   
   {/* LEFT — Form Section */}
   <ToastContainer />
+  
   <form
     ref={Formref}
     onSubmit={handleSubmit}
-    className="w-[40%] bg-white p-6 rounded-2xl shadow-[5px_20px_30px_rgba(0,0,0,0.3)] space-y-4"
+    className="w-full md:w-[40%] bg-white p-6 rounded-2xl shadow-[5px_20px_30px_rgba(0,0,0,0.3)] space-y-4 mb-9"
   >
     {/* Name */}
     <div className="flex flex-col mt-10">
@@ -101,7 +102,7 @@ export default function Formspree() {
   </form>
 
   {/* RIGHT — Contact Info Section */}
-  <div className="w-[40%] text-white bg-[#B82B32] rounded-2xl p-10 shadow-[5px_20px_30px_rgba(0,0,0,0.3)]">
+  <div className="md:w-[40%] text-center mb-4 text-white bg-[#B82B32] rounded-2xl p-10 shadow-[5px_20px_30px_rgba(0,0,0,0.3)]">
     <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
     <p className="mb-3">📍 123 Street Name, City, Pakistan</p>
     <p className="mb-3">📞 Phone: +92 300 1234567</p>

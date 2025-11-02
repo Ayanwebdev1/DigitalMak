@@ -6,7 +6,7 @@ const privacy = () => {
     return (
         <>
             <h1 className='font-bold text-[30px] text-[#B82B32] text-center mt-12'>Privacy Policy</h1>
-            <div className='w-[70%] text-center m-auto mt-8'>
+            <div className='w-[90%] md:w-[70%] text-center m-auto mt-8 mb-9'>
 
                 At DigitalMak, your privacy is important to us. We are committed to protecting your personal information and ensuring that your experience on our website remains safe and secure.
 

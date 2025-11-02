@@ -8,21 +8,24 @@ const Aboutpage = () => {
     <>
       <header>
         <h1 className='font-bold text-[30px] text-[#B82B32] text-center mt-9'>About Us</h1>
-        <h1 className='font-bold text-[25px] text-[#000000] text-center mt-5'>Building Brands that Convert & Code that Performs</h1>
+        <h1 className=' text-[20px] font-bold md:text-[25px] text-[#000000] text-center mt-5'>Building Brands that Convert & Code that Performs</h1>
 
-        <div className='w-[50%] m-auto text-center mt-5'>At DigitalMak, we don’t just design websites — we engineer digital growth systems that help brands dominate their space.
+        <div className='w-[90%] md:w-[50%] m-auto text-center mt-5'>At DigitalMak, we don’t just design websites — we engineer digital growth systems that help brands dominate their space.
           Our team blends creativity with data, so every click, scroll, and pixel moves your business closer to profit. From custom-built web solutions to performance-driven marketing campaigns, we focus on real growth, not hype.</div>
 
-        <h1 className='font-bold text-[25px] text-[#000000] text-center mt-9'>Our Mission</h1>
+        <h1 className='font-bold text-[30px] text-[#B82B32] text-center mt-9'>Our Mission</h1>
 
-        <div className='w-full m-auto text-center mt-5'> <div className='w-[50%] m-auto text-center mt-5'>Our mission is clear — to help every business in USA and beyond look professional, sell faster, and scale smarter.
+        <div className='w-full m-auto text-center mt-5'> 
+          <div className=' w-[90%] md:w-[50%] m-auto text-center mt-5'>Our mission is clear — to help every business in USA and beyond look professional, sell faster, and scale smarter.
           We aim to bridge the gap between ideas and execution, using strategy, design, and automation to transform small businesses into sustainable brands.
-          No fluff, no buzzwords — just systems that work and scale.</div></div>
+          No fluff, no buzzwords — just systems that work and scale.</div>
+          </div>
 
       </header>
 
-      <div className='flex justify-center gap-9 mt-15 '>
-        <div className="different w-[40%] h-[400px] border border-gray-300 rounded-3xl shadow-[5px_20px_30px_rgba(0,0,0,0.2)] hover:cursor-pointer hover:scale-102 transition-all duration-100 ease-in delay-100 ">
+      <div className='flex flex-col md:flex-row justify-center items-center gap-9 mt-15'>
+
+        <div className="different w-[80%] min-h-[30vh] md:w-[40%] md:h-[400px] border border-gray-300 rounded-3xl shadow-[5px_20px_30px_rgba(0,0,0,0.2)] hover:cursor-pointer hover:scale-102 transition-all duration-100 ease-in delay-100 ">
 
           <h1 className='font-bold text-[25px] text-[#B82B32] text-center mt-5'>What Makes Us Different?</h1>
           <ul className='flex flex-col w-[70%] gap-4 m-auto mt-5'>
@@ -32,9 +35,9 @@ const Aboutpage = () => {
             <li>Every project is backed by deep analysis, creativity, and a commitment to long-term growth.</li>
           </ul>
 
-        </div>
+        </div> 
 
-        <div className="values w-[40%] h-[400px] border border-gray-300 rounded-3xl shadow-[5px_20px_30px_rgba(0,0,0,0.2)]  hover:cursor-pointer hover:scale-102 transition-all duration-100 ease-in delay-100">
+        <div className="values w-[80%] min-h-[30vw] md:w-[40%] md:h-[400px] border border-gray-300 rounded-3xl shadow-[5px_20px_30px_rgba(0,0,0,0.2)]  hover:cursor-pointer hover:scale-102 transition-all duration-100 ease-in delay-100">
 
           <h1 className='font-bold text-[25px] text-[#B82B32] text-center mt-5'>Our Core Values</h1>
 
@@ -90,7 +93,7 @@ const Aboutpage = () => {
       </div>
 
       <div className='flex justify-center mt-15'>
-        <Link href="/contact"><button className='contus px-10 py-[15px] rounded-lg text-white font-bold hover: cursor-pointer hover:scale-103 transition-all duration-100 ease-in delay-100 bg-[#B82B32]'>Contact Us</button></Link>
+        <Link href="/contact"><button className='contus px-10 py-[15px] rounded-lg text-white font-bold hover: cursor-pointer hover:scale-103 transition-all duration-100 ease-in delay-100 bg-[#B82B32] mb-5'>Contact Us</button></Link>
       </div>
       <Footer />
 

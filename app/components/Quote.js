@@ -46,10 +46,10 @@ export default function Quote() {
     <ToastContainer />
 
     <h1 className="font-bold text-center text-[30px] text-[#B82B32] mt-9">Let’s Build Something Great Together</h1>
-    <div className="text-center w-[60%] m-auto text-[20px] mt-5">Tell us what you need — whether it’s a website or a  full marketing system — and we’ll send you a customized quote within 24 hours. No templates. No hidden fees. Just results-driven solutions built for your business.</div>
+    <div className="text-center w-[90%] md:w-[60%] m-auto text-[20px] mt-5">Tell us what you need — whether it’s a website or a  full marketing system — and we’ll send you a customized quote within 24 hours. No templates. No hidden fees. Just results-driven solutions built for your business.</div>
 
     <h1 className="font-bold text-center text-[30px] text-[#B82B32] mt-15">Why Get a Quote from DigitalMak?</h1>
-    <div className="text-center w-[60%] m-auto text-[20px] mt-5">At DigitalMak, every project starts with deep analysis. We study your business, your audience, and your goals before giving any price. That’s why our clients get clarity, not confusion — and results, not promises.</div>
+    <div className="text-center w-[90%] md:w-[60%] m-auto text-[20px] mt-5">At DigitalMak, every project starts with deep analysis. We study your business, your audience, and your goals before giving any price. That’s why our clients get clarity, not confusion — and results, not promises.</div>
     <form
       ref={formRef}
       onSubmit={onSubmit}

@@ -130,9 +130,9 @@ const Home = () => {
               We don’t just build websites — we build brands that perform.</div>
 
             <div className="buttons flex md:ml-4 gap-3 mt-6">
-              <Link href="/getquote"><button className="p-2.5 mb-5  btn ml-11  md:p-[15px]  bg-[#B82B32] text-white rounded-lg cursor-pointer">Get a Quote</button></Link>
+              <Link href="/getquote"><button className="p-2.5 mb-5  btn ml-10  md:p-[15px]  bg-[#B82B32] text-white rounded-lg cursor-pointer">Get a Quote</button></Link>
 
-              <button onClick={() => window.open("https://calendly.com/ayankhalid4447/15-minutes-meeting", "_blank")} className="p-2.5 mb-5 btn ml-11  md:p-[15px] bg-[#ffffff] text-black border rounded-lg cursor-pointer" >Book a Call</button>
+              <button onClick={() => window.open("https://calendly.com/ayankhalid4447/15-minutes-meeting", "_blank")} className="p-2.5 mb-5 btn ml-10  md:p-[15px] bg-[#ffffff] text-black border rounded-lg cursor-pointer" >Book a Call</button>
               <button></button>
             </div>
 
@@ -141,7 +141,7 @@ const Home = () => {
           <div className="rightboxes md:w-[50%] mt-2 md:ml-[200px] ">
 
             <div className="md:w-[500px] w-[70vw] min-h-[180px] border border-[#B82B32] rounded-lg bg-black mb-3 md:mb-2 box m-auto">
-              <h1 className="text-white text-[20px] text-center mt-1">Our Mission</h1>
+              <h1 className="text-white text-[20px] text-center mt-1 font-bold">Our Mission</h1>
               <div className="text-white m-auto p-1 text-center">
                 Our mission is to empower brands through innovation, design, and technology.
                 We aim to deliver digital experiences that not only look great but also perform flawlessly.
@@ -150,14 +150,14 @@ const Home = () => {
             </div>
 
             <div className="md:w-[500px] w-[70vw] min-h-[180px] border border-[#B82B32] rounded-lg bg-black mb-3 md:mb-2 box m-auto">
-              <h1 className="text-white text-[20px] text-center mt-1">Expert Team</h1>
+              <h1 className="text-white text-[20px] text-center mt-1 font-bold">Expert Team</h1>
               <div className="text-white m-auto p-1 text-center">Our team is made up of skilled developers, designers, and strategists who love what they do.
                 With expertise across Next.js, React, Node.js, and modern UI frameworks, we build high-quality solutions that scale.
                 We collaborate closely with clients to turn their ideas into impactful digital products.</div>
             </div>
 
             <div className="md:w-[500px] w-[70vw] min-h-[180px] border border-[#B82B32] rounded-lg bg-black mb-3 md:mb-2 box m-auto">
-              <h1 className="text-white text-[20px] text-center mt-1">Our Values</h1>
+              <h1 className="text-white text-[20px] text-center mt-1 font-bold">Our Values</h1>
               <div className="text-white m-auto p-1 text-center">We believe in integrity, innovation, and excellence in everything we create.
                 Every decision is guided by honesty, transparency, and a focus on client success.
                 For us, long-term trust matters more than short-term wins.</div>
@@ -180,6 +180,7 @@ const Home = () => {
         <h1 className='font-bold text-[35px] text-[#B82B32] text-center mt-5.5 m-auto'>OUR CLIENTS</h1>
 
         <div className='m-auto mt-5 text-center w-[90%]'><Logoscroll /></div>
+        {/* <Logoscroll /> */}
 
       </div>
 

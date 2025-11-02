@@ -5,7 +5,7 @@ const terms = () => {
     return (
         <>
             <h1 className='font-bold text-[30px] text-[#B82B32] text-center mt-12'>⚖️ Terms and Conditions</h1>
-            <div className='w-[70%] text-center m-auto mt-8'>
+            <div className='w-[90%] md:w-[70%] text-center m-auto mt-8 mb-9'>
 
                 By using this website, you agree to the following terms and conditions:
 
