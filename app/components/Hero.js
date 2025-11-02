@@ -18,11 +18,11 @@ const Home = () => {
       <div className="flex justify-between px-7">
         {/* Left Side - Text */}
         <div className="text-black text-[30px] max-w-[500px] mt-23">
-          <div className="text-[17px]  md:text-[20px] font-bold mb-2 ml-11">Welcome to DigitalMak.com</div>
-          <div className=" font-bold text-[25px] md:font-bold md:text-[31px] ml-11">
+          <div className="text-[17px]  md:text-[20px] font-bold mb-2 ml-9">Welcome to DigitalMak.com</div>
+          <div className=" font-bold text-[25px] md:font-bold md:text-[31px] ml-9">
             Full Stack Web Development <span className="text-[#B82B32]">Company</span>
           </div>
-          <div className="w-[70vw] text-[15px] mt-3.5 md:text-[15px] md:mt-3.5 ml-11 md:w-[90%] ">We build high-quality websites that deliver results. From design to deployment, our team creates scalable, user-friendly, and visually engaging digital solutions. Every project is crafted to enhance your brand, improve user experience, and drive measurable growth efficiently.</div>
+          <div className="w-[70vw] text-[15px] mt-3.5 md:text-[15px] md:mt-3.5 ml-9 md:w-[90%] ">We build high-quality websites that deliver results. From design to deployment, our team creates scalable, user-friendly, and visually engaging digital solutions. Every project is crafted to enhance your brand, improve user experience, and drive measurable growth efficiently.</div>
         </div>
 
         <div className="relative md:w-80 h-80 mr-24 mt-15">
