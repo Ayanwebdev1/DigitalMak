@@ -16,3 +16,9 @@ body {
   scrollbar-width: none;
 }
 
+@media (max-width: 768px) {
+  .hero{
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
