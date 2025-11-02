@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
       </footer>
 
-      <div className='w-full h-[50px] bg-[#B82B32] text-[20px] text-white flex justify-center items-center font-bold'>
+      <div className='w-full h-[50px] bg-[#B82B32] text-[20px] text-white flex justify-center items-center font-bold text-center'>
         All Rights Reserved © DigitalMak.com
       </div>
     </>

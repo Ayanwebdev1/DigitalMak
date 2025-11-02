@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex justify-between px-7">
+      <div className="flex justify-center md:justify-between px-7">
         {/* Left Side - Text */}
         <div className="text-black text-[30px] max-w-[500px] mt-23">
           <div className="text-[17px]  md:text-[20px] font-bold mb-2 ml-9">Welcome to DigitalMak.com</div>
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
       </div>
       <div className=" mt-9 md:buttons md:flex md:ml-7 gap-3">
-        <Link href="/getquote"><button className=" btn p-2.5 ml-15 md:ml-11  md:p-[15px]  bg-[#B82B32] text-white rounded-lg cursor-pointer">Get a Quote</button></Link>
+        <Link href="/getquote"><button className=" btn p-2.5 ml-6 md:ml-11  md:p-[15px]  bg-[#B82B32] text-white rounded-lg cursor-pointer">Get a Quote</button></Link>
 
         <button onClick={() => window.open("https://calendly.com/ayankhalid4447/15-minutes-meeting", "_blank")} className=" btn p-2.5 ml-15 md:ml-11  md:p-[15px] bg-[#ffffff] text-black border rounded-lg cursor-pointer" >Book a Call</button>
         <button></button>
@@ -66,49 +66,49 @@ const Home = () => {
 
       <div className="boxes flex flex-wrap justify-center gap-4 ">
 
-        <div className="box w-[365px] h-[245px] border border-[#B82B32] p-2 ">
+        <div className="box w-[90vw] md:w-[365px] h-[245px] border border-[#B82B32] p-2 ">
 
           <img className="w-[50px] m-auto mt-2 " src="/database.png" alt="" />
           <h1 className=" text-[#B82B32] text-center mt-2">Gathering Information</h1>
           <div className="text-center">We begin by thoroughly understanding our clients’ goals, audience, and requirements to ensure every solution is tailored for maximum impact.</div>
 
         </div>
-        <div className="box w-[365px] h-[245px] border border-[#B82B32] p-2 ">
+        <div className="box w-[90vw] md:w-[365px] h-[245px] border border-[#B82B32] p-2 ">
 
           <img className="w-[50px] m-auto mt-2 " src="/Planning.png" alt="" />
           <h1 className=" text-[#B82B32] text-center mt-2">Planning</h1>
           <div className="text-center">Based on the information gathered, we craft a clear, strategic plan outlining design, development, and marketing steps to achieve the client’s objectives.</div>
 
         </div>
-        <div className="box w-[365px] h-[245px] border border-[#B82B32] p-2 ">
+        <div className="box w-[90vw] md:w-[365px] h-[245px] border border-[#B82B32] p-2 ">
 
           <img className="w-[50px] m-auto mt-2 " src="/design.png" alt="" />
           <h1 className=" text-[#B82B32] text-center mt-2">Design</h1>
           <div className="text-center">Our design team brings the plan to life with visually appealing, user-friendly interfaces that reflect the client’s brand and engage their audience.</div>
 
         </div>
-        <div className="box w-[365px] h-[245px] border border-[#B82B32] p-2 ">
+        <div className="box w-[90vw] md:w-[365px] h-[245px] border border-[#B82B32] p-2 ">
 
           <img className="w-[50px] m-auto mt-2 " src="/database.png" alt="" />
           <h1 className=" text-[#B82B32] text-center mt-2">Content Writing</h1>
           <div className="text-center">Our team crafts clear, engaging, and persuasive content that communicates the client’s message and enhances the overall user experience.</div>
 
         </div>
-        <div className="box w-[365px] h-[245px] border border-[#B82B32] p-2 ">
+        <div className="box w-[90vw] md:w-[365px] h-[245px] border border-[#B82B32] p-2 ">
 
           <img className="w-[50px] m-auto mt-2 " src="/database.png" alt="" />
           <h1 className=" text-[#B82B32] text-center mt-2">Coding</h1>
           <div className="text-center">We turn designs into fully functional websites and applications, writing clean, efficient code that is scalable and reliable.</div>
 
         </div>
-        <div className="box w-[365px] h-[245px] border border-[#B82B32] p-2 ">
+        <div className="box w-[90vw] md:w-[365px] h-[245px] border border-[#B82B32] p-2 ">
 
           <img className="w-[50px] m-auto mt-2 " src="/database.png" alt="" />
           <h1 className=" text-[#B82B32] text-center mt-2">Testing</h1>
           <div className="text-center">Every project undergoes rigorous testing to ensure flawless performance, compatibility, and a smooth user experience across all devices.</div>
 
         </div>
-        <div className="box w-[365px] h-[245px] border border-[#B82B32] p-2 mb-3 ">
+        <div className="box w-[90vw] md:w-[365px] h-[245px] border border-[#B82B32] p-2 mb-3 ">
 
           <img className="w-[50px] m-auto mt-2 " src="/launching.png" alt="" />
           <h1 className=" text-[#B82B32] text-center mt-2">Launching</h1>
@@ -129,7 +129,7 @@ const Home = () => {
               Every project we launch is fully optimized for speed, SEO, and long-term growth.
               We don’t just build websites — we build brands that perform.</div>
 
-            <div className="buttons flex ml-4 gap-3 mt-6">
+            <div className="buttons flex md:ml-4 gap-3 mt-6">
               <Link href="/getquote"><button className="p-2.5 mb-5  btn ml-11  md:p-[15px]  bg-[#B82B32] text-white rounded-lg cursor-pointer">Get a Quote</button></Link>
 
               <button onClick={() => window.open("https://calendly.com/ayankhalid4447/15-minutes-meeting", "_blank")} className="p-2.5 mb-5 btn ml-11  md:p-[15px] bg-[#ffffff] text-black border rounded-lg cursor-pointer" >Book a Call</button>
